@@ -1,0 +1,46 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Cell Size: 0.05
+      Plane Cell Count: 40
+      Reference Frame: odom
+      Enabled: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: false
+    - Class: rviz_default_plugins/Odometry
+      Name: Odometry
+      Enabled: true
+      Topic:
+        Value: /microduck/odom
+      Keep: 200
+      Shape:
+        Value: Arrow
+        Shaft Length: 0.03
+        Head Length: 0.01
+        Shaft Radius: 0.002
+        Head Radius: 0.005
+  Global Options:
+    Fixed Frame: odom
+    Background Color: 48; 48; 48
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 0.8
+      Focal Point: {X: 0, Y: 0, Z: 0.1}
+      Pitch: 0.4
+      Yaw: 0.8
+Window Geometry:
+  Width: 1200
+  Height: 800

@@ -1,0 +1,5 @@
+# Python packages for the policy node (ROS 2 Jazzy's rclpy/numpy come from the system).
+onnxruntime>=1.18
+huggingface_hub>=0.23
+# optional: MuJoCo test bench / microduck_rl tools
+mujoco>=3.1
