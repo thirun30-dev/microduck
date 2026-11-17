@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One-time setup after cloning: upstream sources, Python venv, build.
-#   git clone --recurse-submodules <this repo> ~/microduck_ws && ~/microduck_ws/bootstrap.sh
+#   git clone --recurse-submodules https://github.com/thirun30-dev/microduck.git ~/microduck_ws && ~/microduck_ws/bootstrap.sh
 set -e
 cd "$(dirname "$0")"
 git submodule update --init

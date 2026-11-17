@@ -69,7 +69,7 @@ Tilt stays at or below 6°, with no falls.
 ## Setup from a fresh clone
 
 ```bash
-git clone --recurse-submodules <this repo> ~/microduck_ws
+git clone --recurse-submodules https://github.com/thirun30-dev/microduck.git ~/microduck_ws
 ~/microduck_ws/bootstrap.sh        # submodules, venv (onnxruntime, huggingface_hub), colcon build
 source ~/microduck_ws/env.sh
 ```
