@@ -1,0 +1,21 @@
+microduck_ws
+Copyright 2026 Thirunavukkarasu
+
+The code in this repository is licensed under the Apache License, Version 2.0
+(see LICENSE).
+
+Third-party content:
+
+- src/microduck_description/meshes/*.stl, and the robot geometry and parameters in
+  src/microduck_description/urdf/microduck.urdf, are derived from Pollen Robotics'
+  microduck_rl (https://github.com/pollen-robotics/microduck_rl) and are licensed under
+  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+  (CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/).
+  They may not be used for commercial purposes.
+
+- The RL policies are downloaded at runtime from the Hugging Face Hub
+  (pollen-robotics/microduck-policies) and are not redistributed here. They are
+  covered by the license of that repository.
+
+- src/microduck and src/microduck_rl are git submodules of the upstream Pollen Robotics
+  repositories and keep their own licenses.

@@ -5,6 +5,9 @@ A ROS 2 Jazzy + Gazebo Harmonic simulation of Pollen Robotics'
 published on the Hugging Face Hub (`pollen-robotics/microduck-policies`, revision `v10`),
 and shown in RViz.
 
+<!-- Demo: record the duck walking (e.g. with Peek or OBS), save it as docs/demo.gif,
+     then replace this comment with:  ![Microduck walking in Gazebo](docs/demo.gif) -->
+
 ## Packages
 
 | package | what it does |
@@ -74,11 +77,13 @@ git clone --recurse-submodules https://github.com/thirun30-dev/microduck.git ~/m
 source ~/microduck_ws/env.sh
 ```
 
-Requires ROS 2 Jazzy with `ros_gz` (Gazebo Harmonic). `src/microduck` and `src/microduck_rl`
+Requires ROS 2 Jazzy with `ros_gz` (Gazebo Harmonic). `env.sh` finds the workspace from its
+own location, so a clone elsewhere works too (use that path instead of `~/microduck_ws`). `src/microduck` and `src/microduck_rl`
 are git submodules of the upstream Pollen Robotics repos.
 
 ## License
 
 The code in this workspace is Apache-2.0. The meshes in `microduck_description/meshes` come
 from Pollen Robotics' `microduck_rl` and are licensed **CC BY-NC-SA 4.0** (attribution, no
-commercial use, share-alike). The upstream submodules keep their own licenses.
+commercial use, share-alike). The upstream submodules keep their own licenses. See [`LICENSE`](LICENSE) and
+[`NOTICE`](NOTICE).

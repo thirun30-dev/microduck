@@ -3,7 +3,7 @@
   <name>microduck_policy</name>
   <version>0.1.0</version>
   <description>Runs Microduck RL policies, fetched from the Hugging Face Hub, against the Gazebo duck.</description>
-  <maintainer email="dev@example.com">microduck</maintainer>
+  <maintainer email="thirun3012@gmail.com">Thirunavukkarasu</maintainer>
   <license>Apache-2.0</license>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>

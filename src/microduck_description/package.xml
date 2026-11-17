@@ -3,7 +3,7 @@
   <name>microduck_description</name>
   <version>0.1.0</version>
   <description>URDF + meshes for Pollen Robotics' Microduck, converted from microduck_rl's MJCF.</description>
-  <maintainer email="dev@example.com">microduck</maintainer>
+  <maintainer email="thirun3012@gmail.com">Thirunavukkarasu</maintainer>
   <license>Apache-2.0</license>
   <license>CC-BY-NC-SA-4.0</license>
   <buildtool_depend>ament_cmake</buildtool_depend>

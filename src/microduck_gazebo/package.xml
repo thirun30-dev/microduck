@@ -3,7 +3,7 @@
   <name>microduck_gazebo</name>
   <version>0.1.0</version>
   <description>Gazebo Harmonic simulation of the Microduck, with RViz.</description>
-  <maintainer email="dev@example.com">microduck</maintainer>
+  <maintainer email="thirun3012@gmail.com">Thirunavukkarasu</maintainer>
   <license>Apache-2.0</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>gz_sim_vendor</depend>

@@ -15,6 +15,7 @@ import numpy as np
 import onnxruntime as ort
 import rclpy
 from geometry_msgs.msg import Twist
+from rclpy.executors import ExternalShutdownException
 from rclpy.node import Node
 from sensor_msgs.msg import Imu, JointState
 from std_msgs.msg import Empty, Float64, Float64MultiArray
@@ -168,5 +169,8 @@ def main():
     node = PolicyNode()
     try:
         rclpy.spin(node)
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, ExternalShutdownException):
         pass
+    finally:
+        node.destroy_node()
+        rclpy.try_shutdown()
